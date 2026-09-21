@@ -35,7 +35,7 @@ body {
     display: flex;
     list-style-type: none;  
     flex-direction: row;
-    gap: clamp(1rem, 20vw, 250px);
+    gap: clamp(1rem, 16vw, 175px);
 
     padding: 0;
 }
@@ -53,6 +53,31 @@ body {
 }
 
 .nav-item:hover {
+    background-color: #897eaa;
+    color: white;
+}
+
+#nugget {
+    background: none;
+    font-family: "Nunito Sans", sans-serif;;
+    color: inherit;
+    border: none;
+    padding: 0;
+    outline: inherit;
+
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+
+    border: 2px solid #897eaa;
+    border-radius: 5px;
+
+    padding: 3px;
+
+    cursor: pointer;
+}
+
+#nugget:hover {
     background-color: #897eaa;
     color: white;
 }
